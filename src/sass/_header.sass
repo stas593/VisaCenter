@@ -1,0 +1,74 @@
+.header
+	// padding-top: 25px
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding-left: 20px
+	padding-right: 20px
+	&-logo
+		flex-grow: 1
+		p
+			font-size: 24px
+		img
+			width: 80px
+			height: 80px
+		display: flex
+		align-items: center
+		&__text
+			margin-top: 10px
+			color: black
+			line-height: 1em
+			margin-left: 15px
+			font-size: 21px
+			font-weight: 700
+			text-transform: uppercase
+			// text-shadow: 0.5px 0.5px 2px black
+			p:nth-child(1)
+			p:nth-child(2)
+				// color: #F49725
+			p:nth-child(3)
+				// color: #005AA6
+	&-menu
+		font-size: 20px
+		display: flex
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-around
+		// border-bottom: 1px solid black
+		// border-top: 1px solid black
+		margin-top: 20px
+		margin-bottom: 70px
+		box-shadow: 0px 0px 10px black
+		&__item
+			font-weight: 700
+			padding-top: 20px
+			padding-bottom: 20px
+			a
+				padding-top: 20px
+				padding-bottom: 15px
+				border-bottom: 5px solid rgba(white, 0)
+				color: black
+				cursor: pointer
+				&:hover
+					border-bottom: 5px solid $main-color
+				&:focus
+					border-bottom: 5px solid $main-color
+	&-numbers
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		font-size: 21px
+		flex-grow: 0
+		color: black
+	&-soc
+		flex-grow: 0
+	&-adres
+		flex-grow: 1
+		text-align: center
+		p
+			width: 350px
+			font-size: 18px
